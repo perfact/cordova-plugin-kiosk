@@ -24,8 +24,6 @@ public class KioskActivity extends CordovaActivity {
     public static volatile boolean running = false;
     public static volatile Set<Integer> allowedKeys = Collections.EMPTY_SET;
 
-    private StatusBarOverlay statusBarOverlay = null;
-
     @Override
     protected void onStart() {
         super.onStart();
@@ -64,8 +62,6 @@ public class KioskActivity extends CordovaActivity {
         ActionBar actionBar = getActionBar();
         if (actionBar != null) actionBar.hide();
         
-        // add overlay to prevent statusbar access by swiping
-        statusBarOverlay = StatusBarOverlay.createOrObtainPermission(this);
     }
 
     @Override
