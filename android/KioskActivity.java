@@ -67,10 +67,6 @@ public class KioskActivity extends CordovaActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (statusBarOverlay != null) {
-            statusBarOverlay.destroy(this);
-            statusBarOverlay = null;
-        }
     }
 
     @Override
