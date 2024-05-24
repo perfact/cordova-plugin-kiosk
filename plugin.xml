@@ -67,7 +67,6 @@
         <source-file src="android/KioskActivity.java" target-dir="src/jk/cordova/plugin/kiosk" />
         <source-file src="android/KioskPlugin.java" target-dir="src/jk/cordova/plugin/kiosk" />
         <source-file src="android/MyPackageReplacedEventReceiver.java" target-dir="src/jk/cordova/plugin/kiosk" />
-        <source-file src="android/StatusBarOverlay.java" target-dir="src/jk/cordova/plugin/kiosk" />
 
     </platform>
 
